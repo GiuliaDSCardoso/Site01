@@ -293,9 +293,11 @@ p {
 }
 
 .consultoria-service-block {
-    width: 100%; /* O bloco de serviço ocupa toda a largura do container */
+    width: 80%; /* O bloco de serviço ocupa toda a largura do container */
+    margin-top: -20px;
+    height: 75%;
     background-color: #f9f9f9;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -324,7 +326,7 @@ p {
 }
 
 .consultoria-service-image img {
-    height: 97%; /* Faz a imagem ocupar toda a altura do container */
+    height: 83%; /* Faz a imagem ocupar toda a altura do container */
     width: auto; /* Mantém a proporção da imagem */
     max-width: 100%; /* Garante que a imagem não ultrapasse a largura do container */
     border-radius: 8px;
